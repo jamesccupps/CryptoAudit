@@ -40,6 +40,10 @@ python3 crypto_audit.py
 # Linux: sudo python3 crypto_audit.py
 ```
 
+## Screenshots
+
+<img width="1962" height="1328" alt="image" src="https://github.com/user-attachments/assets/05e127e6-2d82-4b62-b3d7-c5b960c8cd9b" />
+
 ## Requirements
 
 - **Python 3.10+**
