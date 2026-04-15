@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ML Models (auto-generated, large binary files)
+models/*.joblib
+
+# User data (generated at runtime)
+feedback/key_vault.json
+feedback/intel_vault.json
+feedback/method_stats.json
+feedback/samples/strong/*.bin
+feedback/samples/moderate/*.bin
+feedback/samples/weak/*.bin
+feedback/samples/critical/*.bin
+
+# Exports and captures
+exports/*.json
+debug/*.zip
+logs/*.log
+logs/*.log.*
+
+# PCAP files (large, may contain sensitive data)
+*.pcap
+*.pcapng
+*.cap
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Virtual environments
+venv/
+.env/
